@@ -1,5 +1,6 @@
 import java.util.Scanner;
 //Find the nth fibonacci number using the formula
+//Formula referred from the link : http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibFormula.html#section1
 public class FibonacciFormula {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);

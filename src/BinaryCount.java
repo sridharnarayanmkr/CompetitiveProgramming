@@ -8,7 +8,7 @@ class BinaryCount{
     public static void main(String[] args){
         String tmpNum;int num;
         List<String> list = new ArrayList<>();
-        Scanner intScan = new Scanner(System.in);//Scanner strScan = new Scanner(System.in);
+        Scanner intScan = new Scanner(System.in);
         tmpNum= intScan.nextLine();
         num=Integer.parseInt(tmpNum);
         for(int i=0;i<num;i++){
@@ -46,7 +46,7 @@ class BinaryCount{
         }else{
             outputBinary="";
             while(!num.equals("0")){
-                outputBinary=oddCheck(num)+""+outputBinary;System.out.println(outputBinary);System.out.println(".."+num);
+                outputBinary=oddCheck(num)+""+outputBinary;
                 num=binaryConvert(num);
             }
         }
